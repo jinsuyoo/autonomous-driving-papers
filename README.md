@@ -1,10 +1,39 @@
-# ICLR'25 Autonomous Driving Papers :car:
+# Autonomous Driving Papers :car:
 
-This repository contains papers on autonomous driving that will be presented in ICLR 2025. 
+This repository contains papers on autonomous driving. 
+
+### :book: ICLR 2025
 
 I might have missed some works as I only skimmed through the titles :pray:
 
-####
+#### :sparkles: Collaborative Driving
+
+- Learning 3D Perception from Others' Predictions 
+    - [OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ) | [code](https://github.com/jinsuyoo/rnb-pop)
+    - Keywords: label-efficient learning, domain adaptation, curriculum learning
+    - Datasets: V2V4Real, OPV2V
+
+- Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception 
+    - [OpenReview](https://openreview.net/forum?id=54XlM8Clkg)
+    - Keywords: communication efficiency, sparse detectors
+    - Datasets: V2X-Set, OPV2V, DAIR-V2X
+
+- STAMP: Scalable Task- And Model-agnostic Collaborative Perception 
+    - [OpenReview](https://openreview.net/forum?id=8NdNniulYE)
+    - Keywords: heterogeneous collaborative perception
+    - Datasets: OPV2V, V2V4Real
+
+#### :sparkles: End-to-End Driving
+
+- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=M42KR4W9P5)]
+
+- Enhancing End-to-End Autonomous Driving with Latent World Model [[OpenReview](https://openreview.net/forum?id=fd2u60ryG0)]
+
+- MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
+
+- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=Vv76fCYffN)]
+
+#### General (haven't categorized yet..)
 
 - 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline [[OpenReview](https://openreview.net/forum?id=G6aJyS0ZV0)]
 
@@ -24,13 +53,9 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes [[OpenReview](https://openreview.net/forum?id=a3ptUbuzbW)]
 
-- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=M42KR4W9P5)]
-
 - Diffusion-Based Planning for Autonomous Driving with Flexible Guidance [[OpenReview](https://openreview.net/forum?id=wM2sfVgMDH)]
 
 - DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes [[OpenReview](https://openreview.net/forum?id=M7KyLjuN0A)]
-
-- Enhancing End-to-End Autonomous Driving with Latent World Model [[OpenReview](https://openreview.net/forum?id=fd2u60ryG0)]
 
 - FreeVS: Generative View Synthesis on Free Driving Trajectory [[OpenReview](https://openreview.net/forum?id=dTGH9vUVdf)]
 
@@ -39,8 +64,6 @@ I might have missed some works as I only skimmed through the titles :pray:
 - GPUDrive: Data-driven, multi-agent driving simulation at 1 million FPS [[OpenReview](https://openreview.net/forum?id=ERv8ptegFi)]
 
 - GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting [[OpenReview](https://openreview.net/forum?id=RMaRBE9s2H)]
-
-- Learning 3D Perception from Others' Predictions [[OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ)]
 
 - Learning to Generate Diverse Pedestrian Movements from Web Videos with Noisy Labels [[OpenReview](https://openreview.net/forum?id=DydCqKa6AH)]
 
@@ -52,17 +75,11 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
 
-- MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
-
 - MOS: Model Synergy for Test-Time Adaptation on LiDAR-Based 3D Object Detection [[OpenReview](https://openreview.net/forum?id=Y6aHdDNQYD)]
-
-- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=Vv76fCYffN)]
 
 - OccProphet: Pushing the Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with an Observer-Forecaster-Refiner Framework [[OpenReview](https://openreview.net/forum?id=vC7AlY1ytz)]
 
 - OmniRe: Omni Urban Scene Reconstruction [[OpenReview](https://openreview.net/forum?id=11xgiMEI5o)]
-
-- Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception [[OpenReview](https://openreview.net/forum?id=54XlM8Clkg)]
 
 - Predictive Uncertainty Quantification for Bird's Eye View Segmentation: A Benchmark and Novel Loss Function [[OpenReview](https://openreview.net/forum?id=k3y0oyK7sn)]
 
@@ -76,8 +93,6 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - SlowFast-VGen: Slow-Fast Learning for Action-Driven Long Video Generation [[OpenReview](https://openreview.net/forum?id=UL8b54P96G)]
 
-- STAMP: Scalable Task- And Model-agnostic Collaborative Perception [[OpenReview](https://openreview.net/forum?id=8NdNniulYE)]
-
 - TAU-106K: A New Dataset for Comprehensive Understanding of Traffic Accident [[OpenReview](https://openreview.net/forum?id=Fb0q2uI4Ha)]
 
 - Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving [[OpenReview](https://openreview.net/forum?id=UapxTvxB3N)]
@@ -87,7 +102,6 @@ I might have missed some works as I only skimmed through the titles :pray:
 - UniDrive: Towards Universal Driving Perception Across Camera Configurations [[OpenReview](https://openreview.net/forum?id=jVDPq9EdzT)]
 
 - X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios [[OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm)]
-
 
 #### (Potentially) Related
 
