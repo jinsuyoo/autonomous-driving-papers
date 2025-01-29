@@ -30,7 +30,10 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: task parallelism, sparse representation, streaming processing
     - Datasets: Bench2Drive, nuScenes
 
-- Enhancing End-to-End Autonomous Driving with Latent World Model [[OpenReview](https://openreview.net/forum?id=fd2u60ryG0)]
+- Enhancing End-to-End Autonomous Driving with Latent World Model 
+    - [OpenReview](https://openreview.net/forum?id=fd2u60ryG0) | [Code](https://github.com/BraveGroup/LAW)
+    - Keywords: world model, self-supervised future latent prediction
+    - Datasets: nuScenes, NAVSIM, CARLA
 
 - MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
 
