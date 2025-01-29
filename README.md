@@ -25,7 +25,10 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 #### :sparkles: End-to-End Driving
 
-- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=M42KR4W9P5)]
+- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=M42KR4W9P5)
+    - Keywords: task parallelism, sparse representation, streaming processing
+    - Datasets: Bench2Drive, nuScenes
 
 - Enhancing End-to-End Autonomous Driving with Latent World Model [[OpenReview](https://openreview.net/forum?id=fd2u60ryG0)]
 
