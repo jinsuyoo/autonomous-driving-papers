@@ -9,7 +9,7 @@ I might have missed some works as I only skimmed through the titles :pray:
 #### :sparkles: Collaborative Driving
 
 - Learning 3D Perception from Others' Predictions 
-    - [OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ) | [code](https://github.com/jinsuyoo/rnb-pop)
+    - [OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ) / [code](https://github.com/jinsuyoo/rnb-pop)
     - Keywords: label-efficient learning, domain adaptation, curriculum learning
     - Datasets: V2V4Real, OPV2V
 
@@ -31,13 +31,14 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Datasets: Bench2Drive, nuScenes
 
 - Enhancing End-to-End Autonomous Driving with Latent World Model 
-    - [OpenReview](https://openreview.net/forum?id=fd2u60ryG0) | [Code](https://github.com/BraveGroup/LAW)
+    - [OpenReview](https://openreview.net/forum?id=fd2u60ryG0) / [Code](https://github.com/BraveGroup/LAW)
     - Keywords: world model, self-supervised future latent prediction
     - Datasets: nuScenes, NAVSIM, CARLA
 
-- MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
-
-- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving [[OpenReview](https://openreview.net/forum?id=Vv76fCYffN)]
+- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=Vv76fCYffN) / [Code](https://github.com/PeidongLi/SSR)
+    - Keywords: (navigation-guided) sparse scene representation, self-supervised future feature prediction
+    - Datasets: nuScenes, CARLA
 
 #### General (haven't categorized yet..)
 
@@ -80,6 +81,8 @@ I might have missed some works as I only skimmed through the titles :pray:
 - MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations [[OpenReview](https://openreview.net/forum?id=MvEkN2ejZ1)]
 
 - MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
+
+- MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
 
 - MOS: Model Synergy for Test-Time Adaptation on LiDAR-Based 3D Object Detection [[OpenReview](https://openreview.net/forum?id=Y6aHdDNQYD)]
 
