@@ -40,11 +40,25 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: (navigation-guided) sparse scene representation, self-supervised future feature prediction
     - Datasets: nuScenes, CARLA
 
+#### :sparkles: Planning
+
+- AdaWM: Adaptive World Model based Planning for Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=NEu8wgPctU)
+    - Keywords: reinforcement learning, world model, adaptive finetuning
+    - Datasets: Bench2Drive, CARLA
+
+
+- Diffusion-Based Planning for Autonomous Driving with Flexible Guidance 
+    - [OpenReview](https://openreview.net/forum?id=wM2sfVgMDH) / [Code](https://github.com/ZhengYinan-AIR/Diffusion-Planner)
+    - Keywords: diffusion model, flexible guidance
+    - Datasets: nuPlan, Delivery-vehicle Dataset (proposed)
+
+
+
 #### General (haven't categorized yet..)
 
 - 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline [[OpenReview](https://openreview.net/forum?id=G6aJyS0ZV0)]
 
-- AdaWM: Adaptive World Model based Planning for Autonomous Driving [[OpenReview](https://openreview.net/forum?id=NEu8wgPctU)]
 
 - Adversarial Generative Flow Network for Solving Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=tBom4xOW1H)]
 
@@ -59,8 +73,6 @@ I might have missed some works as I only skimmed through the titles :pray:
 - CityBench: Evaluating the Capabilities of Large Language Models for Urban Tasks [[OpenReview](https://openreview.net/forum?id=oIWN7eMhTb)]
 
 - CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes [[OpenReview](https://openreview.net/forum?id=a3ptUbuzbW)]
-
-- Diffusion-Based Planning for Autonomous Driving with Flexible Guidance [[OpenReview](https://openreview.net/forum?id=wM2sfVgMDH)]
 
 - DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes [[OpenReview](https://openreview.net/forum?id=M7KyLjuN0A)]
 
