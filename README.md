@@ -40,6 +40,13 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: (navigation-guided) sparse scene representation, self-supervised future feature prediction
     - Datasets: nuScenes, CARLA
 
+#### :sparkles: Prediction
+
+- Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving
+    - [OpenReview](https://openreview.net/forum?id=UapxTvxB3N)
+    - Keywords: vehicle trajectory generator, language interface
+    - Datasets: L2T (proposed), WOMD
+
 #### :sparkles: Planning
 
 - AdaWM: Adaptive World Model based Planning for Autonomous Driving 
@@ -52,25 +59,36 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: diffusion model, flexible guidance
     - Datasets: nuPlan, Delivery-vehicle Dataset (proposed)
 
-#### :sparkles: Scene Generation/Reconstruction
+#### :sparkles: Generation/Reconstruction
 
-- CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes [[OpenReview](https://openreview.net/forum?id=a3ptUbuzbW)]
+- DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes 
+    - [OpenReview](https://openreview.net/forum?id=M7KyLjuN0A) / [Code](https://github.com/3DTopia/DynamicCity)
+    - Keywords: 4D occupancy generation, HexPlane, DiT, conditional generation
+    - Datasets: Occ3D-Waymo, Occ3D-nuScenes, CarlaSC
 
-- DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes [[OpenReview](https://openreview.net/forum?id=M7KyLjuN0A)]
+- FreeVS: Generative View Synthesis on Free Driving Trajectory 
+    - [OpenReview](https://openreview.net/forum?id=dTGH9vUVdf) / [Code](https://github.com/esdolo/FreeVS)
+    - Keywords: novel view synthesis, generative model, novel trajectory
+    - Datasets: WOD
 
-- FreeVS: Generative View Synthesis on Free Driving Trajectory [[OpenReview](https://openreview.net/forum?id=dTGH9vUVdf)]
+- Glad: A Streaming Scene Generator for Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=ZFxpclrCCf)
+    - Keywords: streaming video generation, diffusion models
+    - Datasets: nuScenes
 
-- Glad: A Streaming Scene Generator for Autonomous Driving [[OpenReview](https://openreview.net/forum?id=ZFxpclrCCf)]
+- GPUDrive: Data-driven, multi-agent driving simulation at 1 million FPS 
+    - [OpenReview](https://openreview.net/forum?id=ERv8ptegFi) / [Code](https://github.com/Emerge-Lab/gpudrive)
+    - Keywords: simulation, benchmark, multi-agent reinforcement learning, planning
 
-- GPUDrive: Data-driven, multi-agent driving simulation at 1 million FPS [[OpenReview](https://openreview.net/forum?id=ERv8ptegFi)]
+- GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting 
+    - [OpenReview](https://openreview.net/forum?id=RMaRBE9s2H) / [Code](https://github.com/fudan-zvg/gs-lidar)
+    - Keywords: novel view synthesis, LiDAR simulation, gaussian splatting
+    - Datasets: KITTI-360, nuScenes
 
-- GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting [[OpenReview](https://openreview.net/forum?id=RMaRBE9s2H)]
-
-- MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
-
-- Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving [[OpenReview](https://openreview.net/forum?id=UapxTvxB3N)]
-
-- X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios [[OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm)]
+- X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios 
+    - [OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm) / [Code](https://github.com/yichen928/X-Drive)
+    - Keywords: multimodal generation, diffusion models 
+    - Datasets: nuScenes
 
 #### General (haven't categorized yet..)
 
@@ -129,6 +147,8 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - 4K4DGen: Panoramic 4D Generation at 4K Resolution [[OpenReview](https://openreview.net/forum?id=qxRoo7ULCo)]
 
+- CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes [[OpenReview](https://openreview.net/forum?id=a3ptUbuzbW)]
+
 - Depth Any Video with Scalable Synthetic Data [[OpenReview](https://openreview.net/forum?id=gWqFbnKsqR)]
 
 - Depth Pro: Sharp Monocular Metric Depth in Less Than a Second [[OpenReview](https://openreview.net/forum?id=aueXfY0Clv)]
@@ -140,6 +160,8 @@ I might have missed some works as I only skimmed through the titles :pray:
 - GOPS: Learning Generative Object Priors for Unsupervised 3D Instance Segmentation [[OpenReview](https://openreview.net/forum?id=wXSshrxlP4)]
 
 - Interactive Adjustment for Human Trajectory Prediction with Individual Feedback [[OpenReview](https://openreview.net/forum?id=DCpukR83sw)]
+
+- MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
 
 - MonST3R: A Simple Approach for Estimating Geometry in the Presence of Motion [[OpenReview](https://openreview.net/forum?id=lJpqxFgWCM)]
 
