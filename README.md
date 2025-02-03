@@ -47,30 +47,12 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: reinforcement learning, world model, adaptive finetuning
     - Datasets: Bench2Drive, CARLA
 
-
 - Diffusion-Based Planning for Autonomous Driving with Flexible Guidance 
     - [OpenReview](https://openreview.net/forum?id=wM2sfVgMDH) / [Code](https://github.com/ZhengYinan-AIR/Diffusion-Planner)
     - Keywords: diffusion model, flexible guidance
     - Datasets: nuPlan, Delivery-vehicle Dataset (proposed)
 
-
-
-#### General (haven't categorized yet..)
-
-- 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline [[OpenReview](https://openreview.net/forum?id=G6aJyS0ZV0)]
-
-
-- Adversarial Generative Flow Network for Solving Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=tBom4xOW1H)]
-
-- Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=TbTJJNjumY)]
-
-- Cocoon: Robust Multi-Modal Perception with Uncertainty-Aware Sensor Fusion [[OpenReview](https://openreview.net/forum?id=DKgAFfCs5F)]
-
-- CoMotion: Concurrent Multi-person 3D Motion [[OpenReview](https://openreview.net/forum?id=qKu6KWPgxt)]
-
-- CityAnchor: City-scale 3D Visual Grounding with Multi-modality LLMs [[OpenReview](https://openreview.net/forum?id=7nOl5W6xU4)]
-
-- CityBench: Evaluating the Capabilities of Large Language Models for Urban Tasks [[OpenReview](https://openreview.net/forum?id=oIWN7eMhTb)]
+#### :sparkles: Scene Generation/Reconstruction
 
 - CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes [[OpenReview](https://openreview.net/forum?id=a3ptUbuzbW)]
 
@@ -84,6 +66,28 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting [[OpenReview](https://openreview.net/forum?id=RMaRBE9s2H)]
 
+- MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
+
+- Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving [[OpenReview](https://openreview.net/forum?id=UapxTvxB3N)]
+
+- X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios [[OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm)]
+
+#### General (haven't categorized yet..)
+
+- 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline [[OpenReview](https://openreview.net/forum?id=G6aJyS0ZV0)]
+
+- Adversarial Generative Flow Network for Solving Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=tBom4xOW1H)]
+
+- Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=TbTJJNjumY)]
+
+- Cocoon: Robust Multi-Modal Perception with Uncertainty-Aware Sensor Fusion [[OpenReview](https://openreview.net/forum?id=DKgAFfCs5F)]
+
+- CoMotion: Concurrent Multi-person 3D Motion [[OpenReview](https://openreview.net/forum?id=qKu6KWPgxt)]
+
+- CityAnchor: City-scale 3D Visual Grounding with Multi-modality LLMs [[OpenReview](https://openreview.net/forum?id=7nOl5W6xU4)]
+
+- CityBench: Evaluating the Capabilities of Large Language Models for Urban Tasks [[OpenReview](https://openreview.net/forum?id=oIWN7eMhTb)]
+
 - Learning to Generate Diverse Pedestrian Movements from Web Videos with Noisy Labels [[OpenReview](https://openreview.net/forum?id=DydCqKa6AH)]
 
 - Leveraging Driver Field-of-View for Multimodal Ego-Trajectory Prediction [[OpenReview](https://openreview.net/forum?id=LLWj8on4Rv)]
@@ -91,8 +95,6 @@ I might have missed some works as I only skimmed through the titles :pray:
 - LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation models [[OpenReview](https://openreview.net/forum?id=LSp4KBhAom)]
 
 - MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations [[OpenReview](https://openreview.net/forum?id=MvEkN2ejZ1)]
-
-- MetaUrban: An Embodied AI Simulation Platform for Urban Micromobility [[OpenReview](https://openreview.net/forum?id=kFsWpSxkFz)]
 
 - MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
 
@@ -116,13 +118,10 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - TAU-106K: A New Dataset for Comprehensive Understanding of Traffic Accident [[OpenReview](https://openreview.net/forum?id=Fb0q2uI4Ha)]
 
-- Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving [[OpenReview](https://openreview.net/forum?id=UapxTvxB3N)]
-
 - Uni^2Det: Unified and Universal Framework for Prompt-Guided Multi-dataset 3D Detection [[OpenReview](https://openreview.net/forum?id=AcVpLS86RT)]
 
 - UniDrive: Towards Universal Driving Perception Across Camera Configurations [[OpenReview](https://openreview.net/forum?id=jVDPq9EdzT)]
 
-- X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios [[OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm)]
 
 #### (Potentially) Related
 
