@@ -6,46 +6,74 @@ This repository contains papers on autonomous driving.
 
 I might have missed some works as I only skimmed through the titles :pray:
 
-#### :sparkles: Collaborative Driving
+#### :sparkles: Perception
 
-- Learning 3D Perception from Others' Predictions 
-    - [OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ) / [code](https://github.com/jinsuyoo/rnb-pop)
-    - Keywords: label-efficient learning, domain adaptation, curriculum learning
-    - Datasets: V2V4Real, OPV2V
+- Cocoon: Robust Multi-Modal Perception with Uncertainty-Aware Sensor Fusion 
+    - [OpenReview](https://openreview.net/forum?id=DKgAFfCs5F)
+    - Keywords: sensor fusion, uncertainty quantification
+    - Datasets: nuScenes
 
-- Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception 
-    - [OpenReview](https://openreview.net/forum?id=54XlM8Clkg)
-    - Keywords: communication efficiency, sparse detectors
-    - Datasets: V2X-Set, OPV2V, DAIR-V2X
+- MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations 
+    - [OpenReview](https://openreview.net/forum?id=MvEkN2ejZ1)
+    - Keywords: BEV, state space model, causal attention
+    - Datasets: nuScenes
 
-- STAMP: Scalable Task- And Model-agnostic Collaborative Perception 
-    - [OpenReview](https://openreview.net/forum?id=8NdNniulYE)
-    - Keywords: heterogeneous collaborative perception
-    - Datasets: OPV2V, V2V4Real
+- MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD
+Map Construction
+    - [OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)
+    - Keywords: online HD Map construction, lane detection, multi-granularity representation
+    - Datasets: nuScenes, Argoverse2
 
-#### :sparkles: End-to-End Driving
+- MOS: Model Synergy for Test-Time Adaptation on LiDAR-Based 3D Object Detection 
+    - [OpenReview](https://openreview.net/forum?id=Y6aHdDNQYD)
+    - Keywords: test-time adaptation
+    - Datasets: KITTI, Waymo, nuScenes, KITTI-C
 
-- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving 
-    - [OpenReview](https://openreview.net/forum?id=M42KR4W9P5)
-    - Keywords: task parallelism, sparse representation, streaming processing
-    - Datasets: Bench2Drive, nuScenes
+- Predictive Uncertainty Quantification for Bird's Eye View Segmentation: A Benchmark and Novel Loss Function 
+    - [OpenReview](https://openreview.net/forum?id=k3y0oyK7sn)
+    - Keywords: uncertainty quantification, BEV segmentation
+    - Datasets: CALRA, nuScenes, Lyft, nuScenes-C
 
-- Enhancing End-to-End Autonomous Driving with Latent World Model 
-    - [OpenReview](https://openreview.net/forum?id=fd2u60ryG0) / [Code](https://github.com/BraveGroup/LAW)
-    - Keywords: world model, self-supervised future latent prediction
-    - Datasets: nuScenes, NAVSIM, CARLA
+- RobuRCDet: Enhancing Robustness of Radar-Camera Fusion in Bird's Eye View for 3D Object Detection 
+    - [OpenReview](https://openreview.net/forum?id=9xHlhKLu1h)
+    - Keywords: radar-camera 3D object detection, robust detection
+    - Datasets: 
 
-- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving 
-    - [OpenReview](https://openreview.net/forum?id=Vv76fCYffN) / [Code](https://github.com/PeidongLi/SSR)
-    - Keywords: (navigation-guided) sparse scene representation, self-supervised future feature prediction
-    - Datasets: nuScenes, CARLA
+- TAU-106K: A New Dataset for Comprehensive Understanding of Traffic Accident 
+    - [OpenReview](https://openreview.net/forum?id=Fb0q2uI4Ha)
+    - Keywords: traffic accident detection, MLLM
+    - Datasets: TAU-106K (proposed)
+
+- Uni^2Det: Unified and Universal Framework for Prompt-Guided Multi-dataset 3D Detection 
+    - [OpenReview](https://openreview.net/forum?id=AcVpLS86RT)
+    - Keywords: multi-dataset training
+    - Datasets: KITTI, Waymo, nuScenes
+
+- UniDrive: Towards Universal Driving Perception Across Camera Configurations 
+    - [OpenReview](https://openreview.net/forum?id=jVDPq9EdzT) / [Code](https://github.com/ywyeli/UniDrive)
+    - Keywords: cross domain perception, sensor configuration
+    - Datasets: CARLA
 
 #### :sparkles: Prediction
+
+- Leveraging Driver Field-of-View for Multimodal Ego-Trajectory Prediction 
+    - [OpenReview](https://openreview.net/forum?id=LLWj8on4Rv)
+    - Keywords: ego-trajectory prediction, gaze, driver FOV
+    - GEM (proposed; ego-motion dataset with driver positions and perspective)
 
 - Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving
     - [OpenReview](https://openreview.net/forum?id=UapxTvxB3N)
     - Keywords: vehicle trajectory generator, language interface
     - Datasets: L2T (proposed), WOMD
+
+- OccProphet: Pushing the Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with an Observer-Forecaster-Refiner Framework 
+    - [OpenReview](https://openreview.net/forum?id=vC7AlY1ytz)
+    - Keywords: camera-only occupancy forecasting
+    - Datasets: nuScenes, nuScenes-Occupancy, Lyft-Level5
+
+- Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=rCX9l4OTCT)
+    - Keywords: occupancy prediction, occupancy forecasting, semi-supervised
 
 #### :sparkles: Planning
 
@@ -85,10 +113,49 @@ I might have missed some works as I only skimmed through the titles :pray:
     - Keywords: novel view synthesis, LiDAR simulation, gaussian splatting
     - Datasets: KITTI-360, nuScenes
 
+- OmniRe: Omni Urban Scene Reconstruction 
+    - [OpenReview](https://openreview.net/forum?id=11xgiMEI5o) / [Project page](https://ziyc.github.io/omnire/)
+    - Keywords: dynamic scene modeling, human modeling, gaussian splatting
+    - Datasets: WOD, nuScenes, Argoverse2, PandaSet, KITTI, nuPlan
+
 - X-Drive: Cross-modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios 
     - [OpenReview](https://openreview.net/forum?id=IEMmEd5Jgm) / [Code](https://github.com/yichen928/X-Drive)
     - Keywords: multimodal generation, diffusion models 
     - Datasets: nuScenes
+
+#### :sparkles: End-to-End Driving
+
+- DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=M42KR4W9P5)
+    - Keywords: task parallelism, sparse representation, streaming processing
+    - Datasets: Bench2Drive, nuScenes
+
+- Enhancing End-to-End Autonomous Driving with Latent World Model 
+    - [OpenReview](https://openreview.net/forum?id=fd2u60ryG0) / [Code](https://github.com/BraveGroup/LAW)
+    - Keywords: world model, self-supervised future latent prediction
+    - Datasets: nuScenes, NAVSIM, CARLA
+
+- Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving 
+    - [OpenReview](https://openreview.net/forum?id=Vv76fCYffN) / [Code](https://github.com/PeidongLi/SSR)
+    - Keywords: (navigation-guided) sparse scene representation, self-supervised future feature prediction
+    - Datasets: nuScenes, CARLA
+
+#### :sparkles: Collaborative Driving
+
+- Learning 3D Perception from Others' Predictions 
+    - [OpenReview](https://openreview.net/forum?id=Ylk98vWQuQ) / [code](https://github.com/jinsuyoo/rnb-pop)
+    - Keywords: label-efficient learning, domain adaptation, curriculum learning
+    - Datasets: V2V4Real, OPV2V
+
+- Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception 
+    - [OpenReview](https://openreview.net/forum?id=54XlM8Clkg)
+    - Keywords: communication efficiency, sparse detectors
+    - Datasets: V2X-Set, OPV2V, DAIR-V2X
+
+- STAMP: Scalable Task- And Model-agnostic Collaborative Perception 
+    - [OpenReview](https://openreview.net/forum?id=8NdNniulYE)
+    - Keywords: heterogeneous collaborative perception
+    - Datasets: OPV2V, V2V4Real
 
 #### General (haven't categorized yet..)
 
@@ -108,37 +175,26 @@ I might have missed some works as I only skimmed through the titles :pray:
 
 - Learning to Generate Diverse Pedestrian Movements from Web Videos with Noisy Labels [[OpenReview](https://openreview.net/forum?id=DydCqKa6AH)]
 
-- Leveraging Driver Field-of-View for Multimodal Ego-Trajectory Prediction [[OpenReview](https://openreview.net/forum?id=LLWj8on4Rv)]
 
 - LoRA3D: Low-Rank Self-Calibration of 3D Geometric Foundation models [[OpenReview](https://openreview.net/forum?id=LSp4KBhAom)]
 
-- MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations [[OpenReview](https://openreview.net/forum?id=MvEkN2ejZ1)]
 
 - MGMapNet: Multi-Granularity Representation Learning for End-to-End Vectorized HD Map Construction [[OpenReview](https://openreview.net/forum?id=E8S5Upr6oO)]
 
-- MOS: Model Synergy for Test-Time Adaptation on LiDAR-Based 3D Object Detection [[OpenReview](https://openreview.net/forum?id=Y6aHdDNQYD)]
 
-- OccProphet: Pushing the Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with an Observer-Forecaster-Refiner Framework [[OpenReview](https://openreview.net/forum?id=vC7AlY1ytz)]
 
-- OmniRe: Omni Urban Scene Reconstruction [[OpenReview](https://openreview.net/forum?id=11xgiMEI5o)]
 
-- Predictive Uncertainty Quantification for Bird's Eye View Segmentation: A Benchmark and Novel Loss Function [[OpenReview](https://openreview.net/forum?id=k3y0oyK7sn)]
 
 - Rethinking Light Decoder-based Solvers for Vehicle Routing Problems [[OpenReview](https://openreview.net/forum?id=4pRwkYpa2u)]
 
-- RobuRCDet: Enhancing Robustness of Radar-Camera Fusion in Bird's Eye View for 3D Object Detection [[OpenReview](https://openreview.net/forum?id=9xHlhKLu1h)]
 
 - Samba: Synchronized Set-of-Sequences Modeling for Multiple Object Tracking [[OpenReview](https://openreview.net/forum?id=OeBY9XqiTz)]
 
-- Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving [[OpenReview](https://openreview.net/forum?id=rCX9l4OTCT)]
 
 - SlowFast-VGen: Slow-Fast Learning for Action-Driven Long Video Generation [[OpenReview](https://openreview.net/forum?id=UL8b54P96G)]
 
-- TAU-106K: A New Dataset for Comprehensive Understanding of Traffic Accident [[OpenReview](https://openreview.net/forum?id=Fb0q2uI4Ha)]
 
-- Uni^2Det: Unified and Universal Framework for Prompt-Guided Multi-dataset 3D Detection [[OpenReview](https://openreview.net/forum?id=AcVpLS86RT)]
 
-- UniDrive: Towards Universal Driving Perception Across Camera Configurations [[OpenReview](https://openreview.net/forum?id=jVDPq9EdzT)]
 
 
 #### (Potentially) Related
