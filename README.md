@@ -171,8 +171,6 @@ Map Construction
 
 - CityAnchor: City-scale 3D Visual Grounding with Multi-modality LLMs [[OpenReview](https://openreview.net/forum?id=7nOl5W6xU4)]
 
-- CityBench: Evaluating the Capabilities of Large Language Models for Urban Tasks [[OpenReview](https://openreview.net/forum?id=oIWN7eMhTb)]
-
 - Learning to Generate Diverse Pedestrian Movements from Web Videos with Noisy Labels [[OpenReview](https://openreview.net/forum?id=DydCqKa6AH)]
 
 
